@@ -14,8 +14,15 @@ public class Main {
             System.out.println(number + 1);
         });
 
-    }
+        for(int number : numbers){
+            System.out.println(number);
+        }
 
+        System.out.println(isEven(12));
+    }
+    public static boolean isEven(int number){
+        return number % 2 == 0;
+    }
 
 
 }
