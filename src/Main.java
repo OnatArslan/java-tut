@@ -22,7 +22,7 @@ public class Main {
 
         String myName = "Onat";
         System.out.println("Hey! Welcome to our app "+ myName);
-
+//        Java is good
         User firstUser = new User(1, "Onat", "Arslan", "onatarslan@gmail.com");
         firstUser.setName("Rugi");
         System.out.println(firstUser);
