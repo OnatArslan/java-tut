@@ -22,6 +22,13 @@ public class Main {
 
         String myName = "Onat";
         System.out.println("Hey! Welcome to our app "+ myName);
+
+        User firstUser = new User(1, "Onat", "Arslan", "onatarslan@gmail.com");
+        firstUser.setName("Rugi");
+        System.out.println(firstUser);
+        long maxLongNumber = Long.MAX_VALUE;
+        System.out.println("Maximum value of long data type is: "+maxLongNumber);
+        System.out.println(firstUser.getFullName());
     }
     public static boolean isEven(int number){
         return number % 2 == 0;
