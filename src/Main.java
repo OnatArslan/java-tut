@@ -9,7 +9,10 @@ public class Main {
 
         List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
 
-
+//        Example of java callback
+        numbers.forEach(number -> {
+            System.out.println(number + 1);
+        });
 
     }
 
