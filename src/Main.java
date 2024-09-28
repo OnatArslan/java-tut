@@ -29,6 +29,15 @@ public class Main {
         long maxLongNumber = Long.MAX_VALUE;
         System.out.println("Maximum value of long data type is: "+maxLongNumber);
         System.out.println(firstUser.getFullName());
+
+        String a , b, c;
+        a = "Adana";
+        System.out.println(a.getClass().getSimpleName());
+
+
+//        Type casting
+        byte myByte = (byte) (Byte.MAX_VALUE / 2);
+        System.out.println(myByte);
     }
     public static boolean isEven(int number){
         return number % 2 == 0;
