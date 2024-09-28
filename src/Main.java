@@ -19,6 +19,9 @@ public class Main {
         }
 
         System.out.println(isEven(12));
+
+        String myName = "Onat";
+        System.out.println("Hey! Welcome to our app "+ myName);
     }
     public static boolean isEven(int number){
         return number % 2 == 0;
