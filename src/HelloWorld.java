@@ -16,5 +16,10 @@ public class HelloWorld {
             System.out.println(number);
         }
 
+        boolean isAlient = false;
+
+        if (!isAlient) {
+            System.out.println("It is not an alien");
+        }
     }
 }
