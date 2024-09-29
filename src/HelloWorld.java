@@ -15,7 +15,9 @@ public class HelloWorld {
         for (int number : numbers) {
             System.out.println(number);
         }
-
+        int num = 17;
+        boolean biggerThan = num > 13 ? false : true;
+        System.out.println(biggerThan);
         boolean isAlient = false;
 
         if (!isAlient) {
