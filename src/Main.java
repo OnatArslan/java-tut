@@ -30,7 +30,8 @@ public class Main {
         System.out.println("Maximum value of long data type is: "+maxLongNumber);
         System.out.println(firstUser.getFullName());
 
-        String a , b, c;
+        String a , b;
+        int c = 20;
         a = "Adana";
         System.out.println(a.getClass().getSimpleName());
 
