@@ -12,11 +12,7 @@ public class Main {
         }
 
         System.out.println(highScore);
-
-
-
-
-
+        int a = 12;
 
 
 
