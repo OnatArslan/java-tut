@@ -19,7 +19,7 @@ public class Main {
 
 
 
-        int a = 12;
+        int numA = 12;
 
     }
 }
