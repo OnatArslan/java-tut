@@ -9,6 +9,8 @@ public class Main {
         int lowScore = 10;
         if (highScore > 25) {
             highScore += 1000;
+
+
         }
 
         System.out.println(highScore);
