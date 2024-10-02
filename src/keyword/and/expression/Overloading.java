@@ -57,8 +57,8 @@ public class Overloading {
         charStart = stringRepNumber.charAt(0);
         charEnd = stringRepNumber.charAt(stringRepNumber.length() - 1);
 
-        int start = charStart - '0';
-        int end = charEnd - '0';
+        int start = Character.getNumericValue(charStart);
+        int end = Character.getNumericValue(charEnd);
         System.out.println(start);
         System.out.println(end);
         return start + end;
