@@ -9,7 +9,7 @@ public class Overloading {
         int[] numArray = {1, 2, 3, 4, 5};
         sumOfArray(12, numArray);
 
-        isPalindrome(12);
+        System.out.println(isPalindrome(122));
     }
 
 
@@ -34,8 +34,18 @@ public class Overloading {
     }
 
     public static boolean isPalindrome(int number) {
+        String reversedString = "";
         String stringRepNumber = Integer.toString(number);
-        System.out.println(stringRepNumber);
-        return true;
+        boolean isPalindrome = false;
+        for (int i = stringRepNumber.length() - 1; i >= 0 ; i--) {
+            reversedString += stringRepNumber.charAt(i);
+        }
+        System.out.println(reversedString.getClass());
+        System.out.println(stringRepNumber.getClass());
+
+        if(stringRepNumber.equals(reversedString)) {
+            return true;
+        }
+        return isPalindrome;
     }
 }
