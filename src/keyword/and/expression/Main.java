@@ -7,14 +7,15 @@ public class Main {
         int highScore = 50;
 
         int lowScore = 10;
-        if (highScore > 25) {
-            highScore += 1000;
+        if (highScore > 25){
 
-
-        }
+            highScore += 1000;}
 
         System.out.println(highScore);
         int a = 12;
+        }
+
+
 
 
 
@@ -24,4 +25,4 @@ public class Main {
         int numA = 12;
 
     }
-}
+
