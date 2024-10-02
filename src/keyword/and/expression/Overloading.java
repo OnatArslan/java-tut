@@ -10,6 +10,7 @@ public class Overloading {
         sumOfArray(12, numArray);
 
         System.out.println(isPalindrome(122));
+        System.out.println(firstAndLastSum(987));
     }
 
 
@@ -47,5 +48,19 @@ public class Overloading {
             return true;
         }
         return isPalindrome;
+    }
+
+    public static int firstAndLastSum(int number) {
+        char charStart;
+        char charEnd;
+        String stringRepNumber = Integer.toString(number);
+        charStart = stringRepNumber.charAt(0);
+        charEnd = stringRepNumber.charAt(stringRepNumber.length() - 1);
+
+        int start = charStart - '0';
+        int end = charEnd - '0';
+        System.out.println(start);
+        System.out.println(end);
+        return start + end;
     }
 }
