@@ -33,6 +33,7 @@ public class Main {
         for (String n : names) {
             System.out.println(n);
         }
+
     }
 
 
