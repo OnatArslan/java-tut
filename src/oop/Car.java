@@ -15,6 +15,9 @@ public class Car {
         this.topSpeed = topSpeed;
     }
 
+    public Car() {
+
+    }
 
     public String getBrand() {
         return brand;
