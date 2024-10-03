@@ -26,8 +26,7 @@ public class Overloading {
     }
 
 
-
-    public static void sumOfArray(int firstValue, int[] arr){
+    public static void sumOfArray(int firstValue, int[] arr) {
         int total = firstValue;
         for (int i = 0; i < arr.length; i++) {
             total += arr[i];
@@ -40,13 +39,13 @@ public class Overloading {
         String reversedString = "";
         String stringRepNumber = Integer.toString(number);
         boolean isPalindrome = false;
-        for (int i = stringRepNumber.length() - 1; i >= 0 ; i--) {
+        for (int i = stringRepNumber.length() - 1; i >= 0; i--) {
             reversedString += stringRepNumber.charAt(i);
         }
         System.out.println(reversedString.getClass());
         System.out.println(stringRepNumber.getClass());
 
-        if(stringRepNumber.equals(reversedString)) {
+        if (stringRepNumber.equals(reversedString)) {
             return true;
         }
         return isPalindrome;
