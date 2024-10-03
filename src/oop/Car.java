@@ -67,6 +67,14 @@ public class Car {
                 '}';
     }
 //    My methods
-
+    public void openCar(){
+        System.out.println(!this.isOpen);
+        if(!this.isOpen){
+            this.isOpen = true;
+            System.out.println("Car opened");
+        }else{
+            System.out.println("Car is already open");
+        }
+    }
 
 }
