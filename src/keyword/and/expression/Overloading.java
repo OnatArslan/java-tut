@@ -17,12 +17,14 @@ public class Overloading {
     //    Methods with same name with different parameters does different things
     public static void calculateScore(String playerName, int score) {
         System.out.println("Player " + playerName + " score " + score);
+
     }
 
 
     public static void calculateScore(int score, String playerName) {
         System.out.println("score " + score + " Player " + playerName);
     }
+
 
 
     public static void sumOfArray(int firstValue, int[] arr){
