@@ -19,6 +19,7 @@ public class Car {
 
     }
 
+
     public String getBrand() {
         return brand;
     }
