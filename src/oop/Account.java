@@ -15,6 +15,10 @@ public class Account {
         this.phoneNumber = phoneNumber;
     }
 
+    public Account() {
+
+    }
+
     public int getAccNumber() {
         return accNumber;
     }
@@ -66,13 +70,13 @@ public class Account {
                 '}';
     }
 
-    private void deposit(double value) {
+    public void deposit(double value) {
         this.balance += value;
         System.out.println("Deposit complated");
         System.out.println("Your new balance is "+ this.balance);
     }
 
-    private void withdraw(double value){
+    public void withdraw(double value){
         if(value > this.balance){
             System.out.println("Your balance does not support this value");
         }else{
