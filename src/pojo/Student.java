@@ -18,6 +18,16 @@ public class Student {
         this.classList = classList;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", dataOfBirth='" + dataOfBirth + '\'' +
+                ", classList='" + classList + '\'' +
+                '}';
+    }
+
     public String getId() {
         return id;
     }
