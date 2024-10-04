@@ -17,7 +17,8 @@ public class Account {
     }
 
     public Account() {
-
+        /* If empty constructor called use upper constructor with default values */
+        this(0, 0, "default", "default@example.com", "0000000000");
     }
 
     public int getAccNumber() {
