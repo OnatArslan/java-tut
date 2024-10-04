@@ -7,6 +7,7 @@ public class Account {
     private String email;
     private String phoneNumber;
 
+    /* Constructors do not have return type not even void */
     public Account(int accNumber, double balance, String customerName, String email, String phoneNumber) {
         this.accNumber = accNumber;
         this.balance = balance;
