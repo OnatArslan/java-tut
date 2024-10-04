@@ -13,6 +13,7 @@ public class Main {
                 case 5 -> "Lisa";
                 default -> "Anonymous";
             }, "05/11/1985", "Java Masterclass");
+            System.out.println(s);
         }
     }
 }
