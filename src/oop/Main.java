@@ -5,7 +5,6 @@ public class Main {
 
 
         Car firstCar = new Car("Mercedes");
-
         System.out.println(firstCar.getBrand());
     }
 }
