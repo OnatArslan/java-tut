@@ -1,7 +1,7 @@
 package pojo;
 
 
-public class Student {
+public class PojoStudent {
     /* This is same as java bean */
     /* POJO class used for database connection with ORM's */
     /* A POJO is sometimes called Entity because it mirrors database entities or DTO data transfer object */
@@ -11,7 +11,7 @@ public class Student {
     private String dataOfBirth;
     private String classList;
 
-    public Student(String id, String name, String dataOfBirth, String classList) {
+    public PojoStudent(String id, String name, String dataOfBirth, String classList) {
         this.id = id;
         this.name = name;
         this.dataOfBirth = dataOfBirth;
