@@ -17,7 +17,7 @@ public class Student {
         this.dataOfBirth = dataOfBirth;
         this.classList = classList;
     }
-
+    /* @Override syntax is annotation */
     @Override
     public String toString() {
         return "Student{" +
