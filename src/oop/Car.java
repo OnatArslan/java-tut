@@ -19,9 +19,12 @@ public class Car {
 
     }
 
+    public Car(String brand) {
+        this.brand = brand;
+    }
 
     public String getBrand() {
-        return brand;
+        return this.brand;
     }
 
     public void setBrand(String brand) {
