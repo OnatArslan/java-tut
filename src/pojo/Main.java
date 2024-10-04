@@ -5,7 +5,7 @@ public class Main {
 
         for (int i = 1; i <= 5; i++) {
             /* id will be unique because of + 1 statement */
-            Student s = new Student("S92300" + i, switch (i){
+            RStudent s = new RStudent("S92300" + i, switch (i){
                 case 1 -> "Mary";
                 case 2 -> "Carol";
                 case 3 -> "Tim";
