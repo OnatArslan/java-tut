@@ -7,5 +7,9 @@ public class Main {
 
         player.health = 10000;
         System.out.println(player.health);
+
+
+        EnhancedPlayer enhancedPlayer = new EnhancedPlayer("Onat", 120, "pistol");
+
     }
 }

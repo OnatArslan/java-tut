@@ -1,11 +1,11 @@
 package encapsulation;
 
 public class Player {
-    private String name;
-    private int health;
-    private String weapon;
+    public String name;
+    public int health;
+    public String weapon;
 
-    public Player(String name, String weapon) {
+    public Player(String name,int health, String weapon) {
         this.name = name;
         this.health = 100;
         this.weapon = weapon;

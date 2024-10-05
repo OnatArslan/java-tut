@@ -14,4 +14,13 @@ public class EnhancedPlayer {
             throw new RuntimeException("Health must between 1 and 100");
         }
     }
+
+    @Override
+    public String toString() {
+        return "EnhancedPlayer{" +
+                "name='" + name + '\'' +
+                ", health=" + health +
+                ", weapon='" + weapon + '\'' +
+                '}';
+    }
 }
