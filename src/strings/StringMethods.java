@@ -13,5 +13,18 @@ public class StringMethods {
 
         /* replace first chat with second char*/
         System.out.println(birthDate.replace("2", "4"));
+
+        /* Join method (static) joins ...elements with delimiter parameter*/
+        String newDate = String.join("/", "25", "11", "2001");
+        System.out.println(newDate);
+
+        String[] arr = birthDate.splitWithDelimiters("/",3);
+        for (String s : arr) {
+            System.out.println(s);
+        }
+
+        System.out.println("ABC\n".repeat(3).indent(10));
+        System.out.println("-".repeat(30));
+        System.out.println("ABC\n".repeat(3));
     }
 }
