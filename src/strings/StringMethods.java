@@ -11,6 +11,7 @@ public class StringMethods {
         /* Like slice method 10. index not included */
         System.out.println(birthDate.substring(6,10));
 
-
+        /* replace first chat with second char*/
+        System.out.println(birthDate.replace("2", "4"));
     }
 }
