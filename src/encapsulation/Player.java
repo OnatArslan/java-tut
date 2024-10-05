@@ -1,13 +1,13 @@
 package encapsulation;
 
 public class Player {
-    public String name;
-    public int health;
-    public String weapon;
+    private String name;
+    private int health;
+    private String weapon;
 
-    public Player(String name, int health, String weapon) {
+    public Player(String name, String weapon) {
         this.name = name;
-        this.health = health;
+        this.health = 100;
         this.weapon = weapon;
     }
 
@@ -15,6 +15,7 @@ public class Player {
         health -= damage;
         if (health <= 0) {
             System.out.println("Player knocked out of game");
+            this.health = 0;
         }
     }
 
