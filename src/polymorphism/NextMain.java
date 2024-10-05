@@ -9,5 +9,6 @@ public class NextMain {
         myListOfNumbers.add(19);
         myListOfNumbers.add(120);
         System.out.println(myListOfNumbers);
+//      System.out.println(myListOfNumbers instanceof ArrayList<Integer>);
     }
 }
