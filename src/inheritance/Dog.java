@@ -11,4 +11,20 @@ public class Dog extends Animal{
         this.earShape = earShape;
         this.tailShape = tailShape;
     }
+
+    public String getEarShape() {
+        return earShape;
+    }
+
+    public void setEarShape(String earShape) {
+        this.earShape = earShape;
+    }
+
+    public String getTailShape() {
+        return tailShape;
+    }
+
+    public void setTailShape(String tailShape) {
+        this.tailShape = tailShape;
+    }
 }
