@@ -17,7 +17,7 @@ public class PersonalComputer extends Product {
         super(model, manufacturer);
     }
 
-    public Monitor getMonitor() {
+   /* public Monitor getMonitor() {
         return monitor;
     }
 
@@ -27,6 +27,15 @@ public class PersonalComputer extends Product {
 
     public ComputerCase getComputerCase() {
         return computerCase;
+    }*/
+
+    private void drawLogo(){
+        this.monitor.drawPixelAt(1200, 50, "yellow");
+    }
+
+    public void powerUp() {
+        this.computerCase.pressPowerButton();
+        this.drawLogo();
     }
 
     @Override
