@@ -16,4 +16,16 @@ public class PersonalComputer extends Product {
     public PersonalComputer(String model, String manufacturer) {
         super(model, manufacturer);
     }
+
+    public Monitor getMonitor() {
+        return monitor;
+    }
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
+
+    public ComputerCase getComputerCase() {
+        return computerCase;
+    }
 }
