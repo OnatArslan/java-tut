@@ -9,7 +9,7 @@ public class Main {
         System.out.println(player.health);
 
 
-        EnhancedPlayer enhancedPlayer = new EnhancedPlayer("Onat", 120, "pistol");
-
+        EnhancedPlayer enhancedPlayer = new EnhancedPlayer("Onat", 100, "pistol");
+        System.out.println(enhancedPlayer);
     }
 }
