@@ -5,5 +5,7 @@ public class Main {
 
         Animal firstAnimal = new Animal("duck", "small", 10.2);
         System.out.println(firstAnimal);
+        firstAnimal.move("fast");
+        firstAnimal.makeNoise();
     }
 }
