@@ -1,7 +1,7 @@
 package composition;
 
 public class PersonalComputer extends Product {
-
+    /* This is like using models in model like one to many or many-to-many relationships */
     private Monitor monitor;
     private Motherboard motherboard;
     private ComputerCase computerCase;
@@ -27,5 +27,14 @@ public class PersonalComputer extends Product {
 
     public ComputerCase getComputerCase() {
         return computerCase;
+    }
+
+    @Override
+    public String toString() {
+        return "PersonalComputer{" +
+                "monitor=" + monitor +
+                ", motherboard=" + motherboard +
+                ", computerCase=" + computerCase +
+                "} " + super.toString();
     }
 }
