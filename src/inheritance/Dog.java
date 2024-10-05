@@ -27,4 +27,12 @@ public class Dog extends Animal{
     public void setTailShape(String tailShape) {
         this.tailShape = tailShape;
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "earShape='" + earShape + '\'' +
+                ", tailShape='" + tailShape + '\'' +
+                "} " + super.toString();
+    }
 }

@@ -2,10 +2,16 @@ package inheritance;
 
 public class Main {
     public static void main(String[] args) {
+        /* Create parent class */
+        Animal animal = new Animal("duck", "small", 10.2);
+        Dog dog = new Dog("pitbull", "medium", 22.90, "sharp", "short");
 
-        Animal firstAnimal = new Animal("duck", "small", 10.2);
-        System.out.println(firstAnimal);
-        firstAnimal.move("fast");
-        firstAnimal.makeNoise();
+        doAnimalStuff(dog, "slow");
+    }
+
+    public static void doAnimalStuff(Animal animal, String speed) {
+        animal.makeNoise();
+        animal.move(speed);
+        System.out.println(animal);
     }
 }
