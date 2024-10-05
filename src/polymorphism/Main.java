@@ -8,8 +8,11 @@ public class Main {
 
         Movie movie = new Movie("Game of Thrones");
         Movie adventureMovie = new Adventure("Star Wars");
+        Movie comedyMovie = new Comedy("RecepVedik");
+        /* Method name is the same, but all of them doing different thing this is polymorphism */
         movie.watchMovie();
         adventureMovie.watchMovie();
+        comedyMovie.watchMovie();
 
 
 

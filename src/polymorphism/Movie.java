@@ -28,3 +28,18 @@ class Adventure extends Movie{
                 "Something Bad Happens");
     }
 }
+
+class Comedy extends Movie{
+    public Comedy(String title) {
+        super(title);
+    }
+
+    @Override
+    public void watchMovie() {
+        super.watchMovie();
+        System.out.printf(".. %s%n".repeat(3),
+                "Haha haha Scene",
+                "Comic Music",
+                "Something Funny Happens");
+    }
+}
