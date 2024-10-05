@@ -1,7 +1,8 @@
 package inheritance;
 
 public class Animal {
-    private String type;
+    /* protected keyword is allowed all subclasses to access*/
+    protected String type;
     private String size;
     private double weight;
 
