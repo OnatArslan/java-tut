@@ -30,18 +30,33 @@ public class Printer {
         return tonerLevel;
     }
 
+    public int getTonerLevel() {
+        return tonerLevel;
+    }
+
+    public int getPagesPrinted() {
+        return pagesPrinted;
+    }
+
+    public boolean isDuplex() {
+        return duplex;
+    }
+
     public int printPages(int pages) {
         if (this.duplex) {
             if (pages % 2 == 0) {
                 System.out.println("This is a duplex printer");
+                this.pagesPrinted += pages / 2;
                 return pages / 2;
             } else {
                 System.out.println("This is a duplex printer");
+                this.pagesPrinted += (pages / 2 + 1);
                 return pages / 2 + 1;
             }
 
         } else {
             System.out.println("This is not a duplex printer");
+            this.pagesPrinted += pages;
             return pages;
         }
     }
