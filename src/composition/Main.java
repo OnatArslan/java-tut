@@ -8,8 +8,9 @@ public class Main {
 
         PersonalComputer personalComputer = new PersonalComputer("gamer", "me", monitor, motherboard, computerCase);
 
-        System.out.println(personalComputer.getComputerCase());
-        System.out.println(personalComputer.getMonitor());
-        System.out.println(personalComputer.getMotherboard());
+        /* Using composite methods example */
+        personalComputer.getMonitor().drawPixelAt(12, 20, "red");
+        personalComputer.getMotherboard().loadProgram("Windows OS");
+        personalComputer.getComputerCase().pressPowerButton();
     }
 }
