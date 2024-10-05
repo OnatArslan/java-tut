@@ -3,7 +3,7 @@ package inheritance;
 public class Main {
     public static void main(String[] args) {
         /* Create parent class */
-        Animal animal = new Animal("duck", "small", 10.2);
+        Animal animal = new Animal("animal", "small", 10.2);
         Dog dog = new Dog("pitbull", 12.90, "sharp", "short");
         doAnimalStuff(animal, "slow");
         System.out.println("-------------------------");

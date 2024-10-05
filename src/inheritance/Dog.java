@@ -35,4 +35,9 @@ public class Dog extends Animal{
                 ", tailShape='" + tailShape + '\'' +
                 "} " + super.toString();
     }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("bark bark");
+    }
 }
