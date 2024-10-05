@@ -5,7 +5,7 @@ public class EnhancedPlayer {
     private int health;
     private String weapon;
 
-    public EnhancedPlayer(String name,int health, String weapon) {
+    public EnhancedPlayer(String name, int health, String weapon) {
         this.name = name;
         this.weapon = weapon;
         if (health > 0 && health <= 100) {
