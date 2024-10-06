@@ -25,8 +25,8 @@ public class Main {
         System.out.println("The last element of names2 array is: " + names2[names2.length -1]);
 
         int accumulator = 0;
-        for (int i = 0; i < numbers2.length; i++) {
-            accumulator += numbers2[i];
+        for (int num : numbers2) {
+            accumulator += num;
         }
         System.out.println(accumulator);
     }
