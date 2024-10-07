@@ -17,6 +17,7 @@ public class TwoDimensionArray {
             inner:
             for (int i1 = 0; i1 < twoDimensionArray[i].length; i1++){
                 System.out.println("Inner index is "+i1+" element is " + twoDimensionArray[i][i1]);
+                System.out.printf("Element is %d at index [%d, %d] %n",twoDimensionArray[i][i1], i, i1);
             }
         }
 
