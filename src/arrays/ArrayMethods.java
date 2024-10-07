@@ -1,8 +1,5 @@
 package arrays;
 
-import jdk.jfr.Timespan;
-import jdk.jfr.Timestamp;
-
 import java.util.Arrays;
 import java.util.Random;
 
