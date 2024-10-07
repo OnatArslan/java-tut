@@ -20,6 +20,6 @@ public class TwoDimensionArray {
                 System.out.printf("Element is %d at index [%d, %d] %n",twoDimensionArray[i][i1], i, i1);
             }
         }
-
+        System.out.println(Arrays.deepToString(twoDimensionArray));
     }
 }
