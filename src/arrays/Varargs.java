@@ -14,7 +14,7 @@ public class Varargs {
         /* String.join(delimiter, arr) method */
         String[] sampleArray = {"This", "Is", "String", "For", "Join"};
 
-        String sampleString = String.join("", sampleArray);
+        String sampleString = String.join("-", sampleArray);
         System.out.println(sampleString);
     }
 
