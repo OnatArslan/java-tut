@@ -1,5 +1,8 @@
 package arrays;
 
+import jdk.jfr.Timespan;
+import jdk.jfr.Timestamp;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -33,6 +36,13 @@ public class ArrayMethods {
         int[] s2 = {1, 2, 3, 4, 5};
 
         System.out.println(Arrays.equals(s1, s2));
+
+        Arrays.parallelSort(s1);
+        System.out.println(Arrays.toString(s1));
+
+        int[] testArr = {17, 12, 14, 15, 19, 28, 30};
+        System.out.println(Arrays.toString(reverseSortArray(testArr)));
+
     }
 
     public static int[] getRandomArray(int len) {
@@ -43,5 +53,14 @@ public class ArrayMethods {
             newInt[i] = random.nextInt(100);
         }
         return newInt;
+    }
+
+    public static int[] reverseSortArray(int[] arr) {
+        int[] returnThis = new int[arr.length];
+        Arrays.sort(arr);
+        for (int i = 0; i < arr.length; i++) {
+            returnThis[arr.length - i - 1] = arr[i];
+        }
+        return returnThis;
     }
 }
