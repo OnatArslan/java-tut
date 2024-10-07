@@ -32,13 +32,15 @@ public class Main {
         /* Give values to array after initialization*/
         int[] newArray;
 //        newArray = new int[]{5, 4, 3, 2, 1, 0};
-        newArray = new int[5];
-        for (int i = 0; i < newArray.length; i++) {
-            newArray[i] = newArray.length - i;
-        }
+        newArray = new int[]{29, -190, -133, 197, 1, 10002, -980, 2, 7, 11, -12};
 
         for(int element : newArray){
             System.out.println(element);
         }
+
+        System.out.println(Arrays.toString(newArray)); // Arrays.toString() must use for string representation
+
+        Arrays.sort(newArray);
+        System.out.println(Arrays.toString(newArray));
     }
 }
