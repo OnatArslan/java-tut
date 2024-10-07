@@ -29,5 +29,7 @@ public class Main {
             accumulator += num;
         }
         System.out.println(accumulator);
+        /* Give values to array after initialization*/
+
     }
 }
