@@ -43,7 +43,12 @@ public class ArrayMethods {
         int[] testArr = {17, 12, 14, 15, 19, 28, 30};
         System.out.println(Arrays.toString(reverseSortArray(testArr)));
 
+        /* Reverse for loop */
+        for (int i = testArr.length - 1; i >= 0; i--) {
+            System.out.println(testArr[i]);
+        }
     }
+
 
     public static int[] getRandomArray(int len) {
         Random random = new Random();
