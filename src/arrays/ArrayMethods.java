@@ -8,7 +8,7 @@ public class ArrayMethods {
 
         int[] firstArray = getRandomArray(20);
 
-        /* sort(array, firstIndex, toIndex) method is sort array by double pivot algorithm */
+        /* sort (array, firstIndex, toIndex) method is sort array by double pivot algorithm */
         Arrays.sort(firstArray);
         System.out.println(Arrays.toString(firstArray));
 
