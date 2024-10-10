@@ -2,6 +2,7 @@ package arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class ArrList {
@@ -64,7 +65,15 @@ public class ArrList {
         ArrayList<String> family = new ArrayList<>(List.of("Onitoli", "Onat", "Rugi", "Rugitoli","Coni", "Conitoli"));
         System.out.println(family);
 
-        family.addAll(Arrays.asList("Rugrugi", "Bokitoli"));
+        family.addAll(Arrays.asList("Rugrugi", "Bokitoli", "Adem", "Zeynep"));
+        System.out.println(family);
+
+        System.out.println("--------------------------------------");
+        /* SORT METHODS */
+        System.out.println(family);
+        family.sort(Comparator.naturalOrder());
+        System.out.println(family);
+        family.sort(Comparator.reverseOrder());
         System.out.println(family);
     }
 }
