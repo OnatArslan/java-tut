@@ -19,8 +19,11 @@ public class ArrList {
 
         /* Shorthand version*/
         ArrayList<String> myStringList = new ArrayList<>(List.of("Onat", "Rugi", "Coni", "Conitili"));
-        myStringList.addAll(0, groceries);
+        myStringList.addAll(4, groceries);
         System.out.println(myStringList);
+
+        /* get method */
+        System.out.println(myStringList.get(2)); // It will get an element at 2. index
 
     }
 }
