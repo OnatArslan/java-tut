@@ -25,5 +25,13 @@ public class ArrList {
         /* get method */
         System.out.println(myStringList.get(2)); // It will get an element at 2. index
 
+        /* contains method */
+        if (myStringList.contains("Coni")) {
+            System.out.println("Hello Coni");
+        }
+
+        /* indexOf method return index of an element if found else it will return -1 */
+        System.out.println(myStringList.indexOf("Coni")); // 2
+        System.out.println(myStringList.indexOf("Horse")); // -1
     }
 }
