@@ -75,5 +75,15 @@ public class ArrList {
         System.out.println(family);
         family.sort(Comparator.reverseOrder());
         System.out.println(family);
+
+        System.out.println(family.reversed());
+
+        /* Convert an array list to array */
+        String[] familyArray = family.toArray(new String[family.size()]);
+        System.out.println(Arrays.toString(familyArray));
     }
+
+
+
+
 }
