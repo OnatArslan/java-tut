@@ -6,7 +6,7 @@ import java.util.Comparator;
 
 public class ArrVsArrList {
     public static void main(String[] args) {
-        String[] originalArray = new String[]{"first", "second", "third"};
+        String[] originalArray = new String[]{"First", "Second", "Third"};
         var originalList = Arrays.asList(originalArray);
 
         originalList.set(0, "one");
