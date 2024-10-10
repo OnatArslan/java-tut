@@ -1,6 +1,7 @@
 package arraylist;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrList {
@@ -33,5 +34,37 @@ public class ArrList {
         /* indexOf method return index of an element if found else it will return -1 */
         System.out.println(myStringList.indexOf("Coni")); // 2
         System.out.println(myStringList.indexOf("Horse")); // -1
+
+        /* lastIndexOf method returns last value's index if value repeats more than one*/
+        myStringList.add(6, "Coni");
+        System.out.println(myStringList.indexOf("Coni")); // 2
+        System.out.println(myStringList.lastIndexOf("Coni")); // 6
+
+        /* remove by index and remove by value*/
+        System.out.println(myStringList);
+        myStringList.remove(4);
+        System.out.println(myStringList);
+        myStringList.remove("eggs");
+        System.out.println(myStringList);
+        /* remove and retain all with List.of() function */
+        myStringList.removeAll(List.of("milk", "yogurt"));
+        System.out.println(myStringList);
+        myStringList.retainAll(List.of("bananas"));
+        System.out.println(myStringList);
+
+        /* clear all the list */
+        myStringList.clear();
+        System.out.println(myStringList);
+
+        if (myStringList.isEmpty()) {
+            System.out.println("myStringList is empty!");
+        }
+
+        /* This is a creation or adding with List.of() method*/
+        ArrayList<String> family = new ArrayList<>(List.of("Onitoli", "Onat", "Rugi", "Rugitoli","Coni", "Conitoli"));
+        System.out.println(family);
+
+        family.addAll(Arrays.asList("Rugrugi", "Bokitoli"));
+        System.out.println(family);
     }
 }
