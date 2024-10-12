@@ -13,11 +13,13 @@ public class LinList {
         System.out.println(placesToVisit);
 
         addMoreElements(placesToVisit);
-        System.out.println(placesToVisit);
+//        System.out.println(placesToVisit);
 
 //        gettingElements(placesToVisit);
 //        printItinerary(placesToVisit);
-        listIterator(placesToVisit);
+//        listIterator(placesToVisit);
+
+        testIterator(placesToVisit);
     }
 
     private static void addMoreElements(LinkedList<String> list) {
@@ -84,6 +86,22 @@ public class LinList {
         }
 
         System.out.println("Trip ends at "+ list.getLast());
+    }
+
+
+    private static void testIterator(LinkedList<String> list) {
+        var iterator = list.listIterator(list.size());
+        while (iterator.hasPrevious()) {
+            System.out.println(iterator.previous());
+
+        }
+        System.out.println(list);
+
+        var iterator2 = list.listIterator(list.size());
+        while (iterator2.hasPrevious()) {
+            System.out.println(iterator2.previous()+ " " + (iterator2.previousIndex() + 1));
+        }
+        System.out.println(list);
     }
 
 }
