@@ -1,6 +1,7 @@
 package arraylist;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class LinList {
     public static void main(String[] args) {
@@ -14,8 +15,9 @@ public class LinList {
         addMoreElements(placesToVisit);
         System.out.println(placesToVisit);
 
-        gettingElements(placesToVisit);
-
+//        gettingElements(placesToVisit);
+//        printItinerary(placesToVisit);
+        listIterator(placesToVisit);
     }
 
     private static void addMoreElements(LinkedList<String> list) {
@@ -46,5 +48,42 @@ public class LinList {
         System.out.println("Darwin is at position " + list.indexOf("Darwin"));
         /* Queue retrieval method */
         System.out.println("Element from element() = " + list.element());
+
+        System.out.println("Element from peek() = " +list.peek());
+        System.out.println("Element from peek() = " +list.peekLast());
     }
+
+    public static void printItinerary(LinkedList<String> list) {
+        System.out.println("Trip starts at "+ list.getFirst());
+        for (int i = 1; i < list.size(); i++) {
+            System.out.println("--> From: "+list.get(i-1)+ " to " +list.get(i));
+        }
+        System.out.println("Trip ends at "+ list.getLast());
+    }
+
+    public static void printItinerary2(LinkedList<String> list) {
+        System.out.println("Trip starts at "+ list.getFirst());
+        String previousTown = list.getFirst();
+        for (String town : list) {
+            System.out.println("--> From: " + previousTown + " to " + town);
+            previousTown = town;
+        }
+        System.out.println("Trip ends at "+ list.getLast());
+    }
+
+    public static void listIterator(LinkedList<String> list) {
+        System.out.println("Trip starts at "+ list.getFirst());
+        String previousTown = list.getFirst();
+
+        ListIterator<String> iterator = list.listIterator(1);
+        while (iterator.hasNext()) {
+
+            var town = iterator.next();
+            System.out.println("--> From: " + previousTown + " to " + town);
+            previousTown = town;
+        }
+
+        System.out.println("Trip ends at "+ list.getLast());
+    }
+
 }
