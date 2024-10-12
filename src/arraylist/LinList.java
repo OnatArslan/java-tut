@@ -13,8 +13,9 @@ public class LinList {
 
         addMoreElements(placesToVisit);
         System.out.println(placesToVisit);
-        removeElements(placesToVisit);
-        System.out.println(placesToVisit);
+
+        gettingElements(placesToVisit);
+
     }
 
     private static void addMoreElements(LinkedList<String> list) {
@@ -35,4 +36,15 @@ public class LinList {
         list.remove("Brisbane");
     }
 
+
+    private static void gettingElements(LinkedList<String> list) {
+        System.out.println("Retrieved element = " + list.get(4));
+
+        System.out.println("First element = " + list.getFirst());
+        System.out.println("Last element = " + list.getLast());
+
+        System.out.println("Darwin is at position " + list.indexOf("Darwin"));
+        /* Queue retrieval method */
+        System.out.println("Element from element() = " + list.element());
+    }
 }
