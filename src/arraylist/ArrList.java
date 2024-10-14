@@ -89,6 +89,7 @@ public class ArrList {
         System.out.println(Arrays.toString(familyArray));
         System.out.println("Print them out");
         System.out.println("xd");
+        System.out.println("total commit");
     }
 
 
