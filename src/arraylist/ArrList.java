@@ -75,6 +75,7 @@ public class ArrList {
         System.out.println("--------------------------------------");
         /* SORT METHODS */
         System.out.println(family);
+//
         family.sort(Comparator.naturalOrder());
         System.out.println(family);
         family.sort(Comparator.reverseOrder());
