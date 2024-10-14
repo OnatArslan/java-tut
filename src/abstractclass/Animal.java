@@ -15,4 +15,12 @@ public abstract class Animal {
 
     public abstract void makeNoise();
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "type='" + type + '\'' +
+                ", size='" + size + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
 }
