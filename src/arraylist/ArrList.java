@@ -87,6 +87,7 @@ public class ArrList {
         /* Convert an array list to array */
         String[] familyArray = family.toArray(new String[family.size()]);
         System.out.println(Arrays.toString(familyArray));
+        System.out.println("Print them out");
     }
 
 
