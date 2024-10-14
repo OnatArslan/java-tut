@@ -61,6 +61,8 @@ public class ArrList {
         if (myStringList.isEmpty()) {
             System.out.println("myStringList is empty!");
             System.out.println("This is fine");
+//            All
+            System.out.println("Hello");
         }
 
         /* This is a creation or adding with List.of() method*/
