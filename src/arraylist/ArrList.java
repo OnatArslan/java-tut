@@ -81,6 +81,7 @@ public class ArrList {
         System.out.println(family);
 
         System.out.println(family.reversed());
+//        returns reversed a version of a list
 
         /* Convert an array list to array */
         String[] familyArray = family.toArray(new String[family.size()]);
