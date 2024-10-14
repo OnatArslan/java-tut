@@ -88,6 +88,7 @@ public class ArrList {
         String[] familyArray = family.toArray(new String[family.size()]);
         System.out.println(Arrays.toString(familyArray));
         System.out.println("Print them out");
+        System.out.println("xd");
     }
 
 
