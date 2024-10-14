@@ -44,6 +44,7 @@ public class ArrList {
         /* remove by index and remove by value*/
         System.out.println(myStringList);
         myStringList.remove(4);
+        myStringList.add("Calculator");
         System.out.println(myStringList);
         myStringList.remove("eggs");
         System.out.println(myStringList);
