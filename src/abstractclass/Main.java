@@ -20,5 +20,6 @@ public class Main {
         wolf.makeNoise();
         wolf.makeNoise();
         wolf.makeNoise();
+        wolf.makeNoise();
     }
 }
