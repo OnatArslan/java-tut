@@ -16,7 +16,7 @@ public class Dog extends Animal{
             System.out.println("Woof!");
         }
     }
-
+/* Comment for override method example */
     @Override
     public void move(String speed) {
         System.out.println("Dog is moving "+speed);
