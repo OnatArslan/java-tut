@@ -22,5 +22,5 @@ public class Dog extends Animal{
         System.out.println("Dog is moving "+speed);
     }
 
-
+// Comment for changes
 }
