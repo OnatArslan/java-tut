@@ -10,5 +10,6 @@ public class Main {
         puffy.makeNoise();
         wolf.makeNoise();
         wolf.makeNoise();
+        wolf.makeNoise();
     }
 }
