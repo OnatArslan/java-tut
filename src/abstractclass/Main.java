@@ -5,6 +5,7 @@ public class Main {
 
         Dog puffy = new Dog("labrador", "medium", 30);
         Dog wolf = new Dog("wolf", "large", 60);
+        Dog wolf2 = new Dog("wolf", "large", 60);
         System.out.println(puffy);
         puffy.move("fast");
         puffy.makeNoise();
