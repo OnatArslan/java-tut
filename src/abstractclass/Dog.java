@@ -21,6 +21,7 @@ public class Dog extends Animal{
 /* Comment for override method example */
 /* Comment for override method example */
 /* Comment for override method example */
+
 /* Comment for override method example */
     @Override
     public void move(String speed) {

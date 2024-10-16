@@ -9,5 +9,6 @@ public class Main {
         puffy.move("fast");
         puffy.makeNoise();
         wolf.makeNoise();
+        wolf.makeNoise();
     }
 }
