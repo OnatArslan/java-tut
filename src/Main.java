@@ -41,6 +41,7 @@ public class Main {
 //        Type casting
         byte myByte = (byte) (Byte.MAX_VALUE / 2);
         System.out.println(myByte);
+        System.out.println(myByte);
     }
     public static boolean isEven(int number){
         return number % 2 == 0;
