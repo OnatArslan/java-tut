@@ -47,6 +47,7 @@ public class Main {
         System.out.println(myByte);
         System.out.println(myByte);
         System.out.println(myByte);
+        System.out.println(myByte);
     }
     public static boolean isEven(int number){
         return number % 2 == 0;
