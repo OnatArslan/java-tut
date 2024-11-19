@@ -27,7 +27,7 @@ public class Main {
         firstUser.setName("Rugi");
         System.out.println(firstUser);
         long maxLongNumber = Long.MAX_VALUE;
-        System.out.println("Maximum value of long data type is: "+maxLongNumber);
+        System.out.println("Maximum value of long data type is: " + maxLongNumber);
         System.out.println("Maximum value of long data type is: "+maxLongNumber);
         System.out.println("Maximum value of long data type is: "+maxLongNumber);
         System.out.println(firstUser.getFullName());
