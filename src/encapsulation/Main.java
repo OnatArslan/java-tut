@@ -5,6 +5,8 @@ public class Main {
 
         Player player = new Player("Rugi", 20, "sword");
 
+
+
         player.health = 10000;
         System.out.println(player.health);
 
