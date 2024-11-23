@@ -17,6 +17,7 @@ public class Main {
 
         duplexPrinter.printPages(124);
         System.out.println(duplexPrinter.getPagesPrinted());
+        System.out.println(duplexPrinter.getPagesPrinted());
 
         nonDublexPrinter.printPages(980);
         System.out.println(nonDublexPrinter.getPagesPrinted());
