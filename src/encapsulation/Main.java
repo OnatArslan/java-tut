@@ -25,5 +25,6 @@ public class Main {
         System.out.println(nonDublexPrinter.getPagesPrinted());
         System.out.println(nonDublexPrinter.getPagesPrinted());
         System.out.println(nonDublexPrinter.getPagesPrinted());
+        System.out.println(nonDublexPrinter.getPagesPrinted());
     }
 }
